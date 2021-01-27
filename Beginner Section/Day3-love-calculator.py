@@ -17,10 +17,10 @@ countL = both_names.count("l")
 countO = both_names.count("o")
 countV = both_names.count("v")
 
-true = (countT + countR + countU + countE) * 10
+true_ = (countT + countR + countU + countE) * 10
 love = countL + countO + countV + countE
 
-total = true + love
+total = true_ + love
 
 if total < 10 or total > 90:
   print(f"Your score is {total}, you go together like coke and mentos.")
